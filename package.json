@@ -10,6 +10,9 @@
     "db:push": "drizzle-kit push:sqlite"
   },
   "dependencies": {
+    "@nextui-org/button": "^2.0.1",
+    "@nextui-org/input": "^2.0.1",
+    "@nextui-org/react": "^2.0.1",
     "@types/node": "20.4.2",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
@@ -18,7 +21,8 @@
     "drizzle-orm": "^0.27.2",
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.10",
-    "next": "13.4.10",
+    "framer-motion": "^10.15.0",
+    "next": "13.4.12",
     "postcss": "8.4.26",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -28,8 +32,7 @@
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.4",
-    "@types/dotenv": "^8.2.0",
-    "daisyui": "^3.2.1",
-    "drizzle-kit": "^0.19.5"
+    "drizzle-kit": "^0.19.5",
+    "dotenv": "^16.3.1"
   }
 }
