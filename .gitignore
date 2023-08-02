@@ -8,6 +8,8 @@
 # Env
 .env
 
+db.sqlite
+
 # testing
 /coverage
 
