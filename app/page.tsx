@@ -2,7 +2,7 @@ import { db } from '~/db';
 import { FormNotesAdd } from './components/FormNotesAdd';
 
 async function getNotes() {
-  const currentNotes = db.query.notes.findMany();
+  const currentNotes = db.query.note.findMany();
   return currentNotes;
 }
 

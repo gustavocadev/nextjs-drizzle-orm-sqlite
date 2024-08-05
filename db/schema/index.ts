@@ -1,10 +1,9 @@
-import { InferModel } from 'drizzle-orm';
 import { sqliteTable, text } from 'drizzle-orm/sqlite-core';
 
-export const notes = sqliteTable('notes', {
+export const note = sqliteTable('note', {
   id: text('id').primaryKey(),
   title: text('title').notNull(),
   description: text('description').notNull(),
 });
 
-export type Note = InferModel<typeof notes>;
+export type Note = typeof note.$inferSelect;

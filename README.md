@@ -8,6 +8,6 @@ Steps to run the project:
 DB_URL='notes.sqlite'
 ```
 
-2. Run `pnpm install` command to install dependencies
-3. Run `pnpm run db:push` command to create the database and tables
-4. Run `pnpm run dev` command to start the development server
+2. Run `bun install` command to install dependencies
+3. Run `bun run db:push` command to create the database and tables
+4. Run `bun run dev` command to start the development server
